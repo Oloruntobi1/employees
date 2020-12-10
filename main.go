@@ -11,9 +11,11 @@ var grp []int
 
 func main() {
 
-	// get number of to-be-workers
+	
 
 	var employees = make(map[string]int)
+
+	// get number of to-be-workers
 	if len(os.Args) != 2 {
 		fmt.Println("Need #workers!")
 		os.Exit(1)
